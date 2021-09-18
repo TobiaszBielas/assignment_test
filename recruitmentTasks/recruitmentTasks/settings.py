@@ -91,21 +91,9 @@ WSGI_APPLICATION = 'recruitmentTasks.wsgi.application'
 DATABASES = {
 
     'default': {
-
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-
-        'NAME': 'Sensor_DB',
-
-        'USER': 'postgres',
-
-        'PASSWORD': '29027531',
-
-        'HOST': 'localhost',
-
-        'PORT': '5432',
-
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
-
 }
 
 
