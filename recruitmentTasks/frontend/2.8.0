@@ -1,0 +1,8 @@
++ tsutils@3.21.0
++ bootstrap@4.6.0
++ jquery@1.9.1
++ typescript@4.4.3
++ @popperjs/core@2.10.1
+added 1 package from 1 contributor, updated 4 packages and audited 2015 packages in 36.96s
+found 6 vulnerabilities (5 moderate, 1 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
